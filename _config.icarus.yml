@@ -98,12 +98,12 @@ navbar:
         About: /about
     # Links to be shown on the right of the navigation bar
     links:
-        Discuss on GitHub:
+        Discuss:
             icon: fas fa-comments
-            url: 'https://github.com/ppoffice/hexo-theme-icarus/discussions'
+            url: 'https://chat.whatsapp.com/K3NrW5tPwrsHhfbdYstjLl'
         Download on GitHub:
             icon: fab fa-github
-            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+            url: 'https://github.com/geekspaceclub/GeekSpace-Website/tree/site'
 # Page footer configurations
 footer:
     # Links to be shown on the right of the footer section
@@ -111,12 +111,12 @@ footer:
         Creative Commons:
             icon: fab fa-creative-commons
             url: 'https://creativecommons.org/'
-        Discuss on GitHub:
+        Discuss:
             icon: fas fa-comments
-            url: 'https://github.com/ppoffice/hexo-theme-icarus/discussions'
+            url: 'https://chat.whatsapp.com/K3NrW5tPwrsHhfbdYstjLl'
         Download on GitHub:
             icon: fab fa-github
-            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+            url: 'https://github.com/geekspaceclub/GeekSpace-Website/tree/site'
 # Article related configurations
 article:
     # Code highlight settings
@@ -146,7 +146,9 @@ search:
     index_pages: true
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
-# comment:
+comment:
+    type: disqus
+    shortname: geekspace
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 # donates:
@@ -180,9 +182,9 @@ search:
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
 share:
-    type: sharethis
+    type: addtoany
     # URL to the ShareThis share plugin script
-    install_url: //platform-api.sharethis.com/js/sharethis.js#property=5ab6f60ace89f00013641890&product=inline-share-buttons
+    # install_url: //platform-api.sharethis.com/js/sharethis.js#property=5ab6f60ace89f00013641890&product=inline-share-buttons
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
@@ -215,7 +217,7 @@ widgets:
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
-        follow_link: 'https://github.com/ppoffice'
+        follow_link: 'https://chat.whatsapp.com/K3NrW5tPwrsHhfbdYstjLle'
         # Links to be shown on the bottom of the profile widget
         social_links:
             Whatsapp:

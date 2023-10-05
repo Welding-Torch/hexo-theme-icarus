@@ -9,7 +9,7 @@
 Plugins:
 Comment
 
-❌Changyan · Disqus · DisqusJS · ❌Facebook · ❌Gitalk · ❌Gitment · Isso · ❌LiveRe · Utterance · ❌Valine
+❌Changyan · ✔️Disqus · DisqusJS · ❌Facebook · ❌Gitalk · ❌Gitment · Isso · ❌LiveRe · Utterance · ❌Valine
 
 Donate Button
 
@@ -21,7 +21,7 @@ Algolia · ❌Baidu · ❌Google CSE · ✔️Insight
 
 Share
 
-AddThis · AddToAny · ❌Baidu Share · Share.js · ShareThis
+❌AddThis · ✔️AddToAny · ❌Baidu Share · -Share.js · -(Blocked by AdBlocker) ShareThis
 
 Widgets
 

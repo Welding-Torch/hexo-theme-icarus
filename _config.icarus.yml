@@ -3,19 +3,19 @@ version: 5.1.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: /img/logo.svg
+logo: /gallery/logo.png
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-    favicon: /img/favicon.svg
+    favicon: /gallery/favicon.ico
     # Web application manifests configuration
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
         # Name of the web application (default to the site title)
-        name: Icaurs - Hexo Theme
+        name: GeekSpace
         # The displayed name of the web application
         # when there is not enough space to display full name
-        short_name: Icarus
+        short_name: GeekSpace
         # The start URL of the web application
         start_url: 
         # The default theme color for the application
@@ -32,7 +32,7 @@ head:
     open_graph:
         # Page title (og:title) (optional)
         # You should leave this blank for most of the time
-        title: 
+        title: GeekSpace
         # Page type (og:type) (optional)
         # You should leave this blank for most of the time
         type: blog
@@ -92,9 +92,9 @@ navbar:
     # Naviagtion menu items
     menu:
         Home: /
-        Archives: /archives
-        Categories: /categories
-        Tags: /tags
+        Posts: /archives
+        # Categories: /categories
+        # Tags: /tags
         About: /about
     # Links to be shown on the right of the navigation bar
     links:
@@ -203,13 +203,13 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: PPOffice
+        author: GeekSpace
         # Author title
-        author_title: Web Developer
+        author_title: Community
         # Author's current location
-        location: Earth, Solar System
+        location: Mumbai
         # URL or path to the avatar image
-        avatar: 
+        avatar: /gallery/logo.png
         # Whether show the rounded avatar image
         avatar_rounded: false
         # Email address for the Gravatar
@@ -218,9 +218,9 @@ widgets:
         follow_link: 'https://github.com/ppoffice'
         # Links to be shown on the bottom of the profile widget
         social_links:
-            Github:
-                icon: fab fa-github
-                url: 'https://github.com/ppoffice'
+            Whatsapp:
+                icon: fab fa-whatsapp
+                url: 'https://chat.whatsapp.com/K3NrW5tPwrsHhfbdYstjLl'
 
     # Table of contents widget configurations
     -
@@ -248,11 +248,11 @@ widgets:
         position: right
         type: recent_posts
     # Archives widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: right
-        type: archives
-    # Tags widget configurations
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: right
+    #     type: archives
+    # # Tags widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
         position: right
@@ -314,17 +314,17 @@ plugins:
         web_id: 
     # Alerting users about the use of cookies
     # https://www.osano.com/cookieconsent/
-    cookie_consent:
-        # The compliance type. Can be "info", "opt-in", or "opt-out"
-        type: info
-        # Theme of the popup. Can be "block", "edgeless", or "classic"
-        theme: edgeless
-        # Whether the popup should stay static regardless of the page scrolls
-        static: false
-        # Where on the screen the consent popup should display
-        position: bottom-left
-        # URL to your site's cookie policy
-        policyLink: 'https://www.cookiesandyou.com/'
+    # cookie_consent:
+    #     # The compliance type. Can be "info", "opt-in", or "opt-out"
+    #     type: info
+    #     # Theme of the popup. Can be "block", "edgeless", or "classic"
+    #     theme: edgeless
+    #     # Whether the popup should stay static regardless of the page scrolls
+    #     static: false
+    #     # Where on the screen the consent popup should display
+    #     position: bottom-left
+    #     # URL to your site's cookie policy
+    #     policyLink: 'https://www.cookiesandyou.com/'
     # Enable the lightGallery and Justified Gallery plugins
     gallery: true
     # Google Analytics plugin settings

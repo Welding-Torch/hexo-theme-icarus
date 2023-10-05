@@ -18,13 +18,13 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: PPOffice
+        author: Geekspace
         # Author title
-        author_title: Web Developer
+        author_title: Community
         # Author's current location
-        location: Earth, Solar System
+        location: Mumbai
         # URL or path to the avatar image
-        avatar: 
+        avatar: /gallery/logo.png
         # Whether show the rounded avatar image
         avatar_rounded: false
         # Email address for the Gravatar

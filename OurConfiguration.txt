@@ -1,0 +1,36 @@
+# https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Search/
+# https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
+# https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
+# https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
+# http://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
+# https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
+# https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/speed-up-your-site-with-custom-cdn/
+
+Plugins:
+Comment
+
+❌Changyan · Disqus · DisqusJS · ❌Facebook · ❌Gitalk · ❌Gitment · Isso · ❌LiveRe · Utterance · ❌Valine
+
+Donate Button
+
+❌Afdian.net · ❌Alipay · ❌Buy me a coffee · ❌Patreon · ❌Paypal · ❌Wecat
+
+Search
+
+Algolia · ❌Baidu · ❌Google CSE · ✔️Insight
+
+Share
+
+AddThis · AddToAny · ❌Baidu Share · Share.js · ShareThis
+
+Widgets
+
+Google Adsense · Archives · ❌Categories · External Site Links · Recent Posts · ❌Google Feedburner · Tags · Table of Contents
+
+Analytics
+
+❌Baidu Statistics · ❌Bing Webmaster · ❌BuSuanZi Web Counter · ❌CNZZ Statistics · Google Analytics · Hotjar · StatCounter · ❌Twitter Conversion Tracking
+
+Other Plugins
+
+❌Cookie Consent · ✔️LightGallery · ✔️Justified Gallery · KaTeX · MathJax · ❌Oudated Browser · ✔️Page Loading Animations

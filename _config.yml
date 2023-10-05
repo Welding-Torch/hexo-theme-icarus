@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Icarus
+title: GeekSpace
 subtitle:
-description: Hexo theme - Icarus
-author: PPOffice
+description: The GeekSpace Community Website
+author: GeekSpace Team
 language: en
-timezone:
+timezone: Asia/Kolkata
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -45,7 +45,7 @@ highlight:
   tab_replace:
 
 # Category & Tag
-default_category: uncategorized
+default_category: post
 category_map:
 tag_map:
 

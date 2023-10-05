@@ -12,7 +12,7 @@ timezone: Asia/Kolkata
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://ppoffice.github.io/hexo-theme-icarus/
+url: https://geekspaceclub.github.io/GeekSpace-Website/
 root: /hexo-theme-icarus/
 permalink: :category/:post_title/
 permalink_defaults:
@@ -85,7 +85,7 @@ theme: icarus
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/ppoffice/hexo-theme-icarus.git
+  repository: https://github.com/geekspaceclub/GeekSpace-Website.git
   branch: gh-pages
 
 marked:

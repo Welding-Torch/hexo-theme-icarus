@@ -17,7 +17,7 @@ head:
         # when there is not enough space to display full name
         short_name: GeekSpace
         # The start URL of the web application
-        start_url: 
+        start_url: https://geekspaceclub.github.io/GeekSpace-Website/
         # The default theme color for the application
         theme_color: "#f7f7f7"
         # A placeholder background color for the application page to display
@@ -333,7 +333,7 @@ plugins:
     # https://analytics.google.com
     google_analytics:
         # Google Analytics tracking ID
-        tracking_id: UA-72437521-5
+        tracking_id: G-DH59QBGKQK
     # Hotjar user feedback plugin
     # https://www.hotjar.com/
     hotjar:

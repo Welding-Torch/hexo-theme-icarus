@@ -1,4 +1,4 @@
-name: GitHub Pages
+name: Deploy Hexo Site to GitHub Pages
 
 on: push
 
@@ -12,8 +12,8 @@ jobs:
           node-version: '14'
       - run: npm install
       - run: npx hexo algolia
-        env:
-          HEXO_ALGOLIA_INDEXING_KEY: ${{ secrets.HEXO_ALGOLIA_INDEXING_KEY }}
+        # env:
+        #   HEXO_ALGOLIA_INDEXING_KEY: ${{ secrets.HEXO_ALGOLIA_INDEXING_KEY }}
       - run: NODE_ENV=production npx hexo g
       - uses: peaceiris/actions-gh-pages@v3
         with:

@@ -69,4 +69,5 @@ If you're having trouble setting up Units and Limits, check out this video by Ma
 
 ---
 
-Posted by Ninad Naik ([ninad@tsecgeeks.in](mailto:ninad@tsecgeeks.in))
+Posted by Ninad Naik
+<!-- ([ninad@tsecgeeks.in](mailto:ninad@tsecgeeks.in)) -->

@@ -2,6 +2,7 @@
 layout: post
 title: Getting Started with C Programming - Part 2
 date: 2022-5-20
+toc: true
 ---
 
 _Covers Setup, Basic Structure of Program, Hello World, Explanation of Terms_
@@ -154,4 +155,4 @@ Join our [WhatsApp Group](https://chat.whatsapp.com/K3NrW5tPwrsHhfbdYstjLl)
 
 ---
 
-Posted by Siddharth Bhatia ([siddharth@tsecgeeks.in](mailto:siddharth@tsecgeeks.in))
+Posted by Siddharth Bhatia

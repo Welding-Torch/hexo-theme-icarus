@@ -2,6 +2,7 @@
 layout: post
 title: How to get GitHub Student Pack
 date: 2022-4-16
+toc: true
 ---
 
 _Availing GitHub Student Developer Pack, using your university email address instantly!_
@@ -126,7 +127,7 @@ Feel free to reach out to us on our [WhatsApp Group](https://chat.whatsapp.com/K
 
 This post was brought to you by Anas Khan.
 
-If you have any suggestions, drop an email - [anas@tsecgeeks.in](mailto:anas@tsecgeeks.in) 
+<!-- If you have any suggestions, drop an email - [anas@tsecgeeks.in](mailto:anas@tsecgeeks.in)  -->
 
 
 

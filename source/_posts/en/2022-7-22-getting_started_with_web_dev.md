@@ -2,6 +2,7 @@
 layout: post
 title: Getting started with web development
 date: 2022-7-22
+toc: true
 ---
 
 _A comprehensive roadmap of getting started with web development._

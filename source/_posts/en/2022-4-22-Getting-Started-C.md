@@ -2,6 +2,7 @@
 layout: post
 title: Getting Started with C Programming
 date: 2022-4-22
+toc: true
 ---
 
 _Covers Setup, Basic Structure of Program, Hello World, Explanation of Terms_
@@ -87,4 +88,5 @@ Join our [WhatsApp Group](https://chat.whatsapp.com/K3NrW5tPwrsHhfbdYstjLl)
 
 ---
 
-Posted by Siddharth Bhatia ([sid@tsecgeeks.in](mailto:siddharth@tsecgeeks.in))
+Posted by Siddharth Bhatia
+<!-- ([sid@tsecgeeks.in](mailto:siddharth@tsecgeeks.in)) -->

@@ -1,7 +1,7 @@
 title: About
 toc: true
 ---
-![GeekSpace Logo](../gallery/logo.png)
+![GeekSpace Logo](./gallery/logo.png)
 
 👋 Good day, everyone! 
 *GeekSpace* is pleased to welcome you.

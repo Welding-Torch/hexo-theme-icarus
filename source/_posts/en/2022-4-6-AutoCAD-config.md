@@ -1,11 +1,15 @@
 ---
 layout: post
 title: Configure your AutoCAD with these settings.
+date: 2022-4-6
+toc: true
 ---
 
 _AutoCAD configurations to get started._
 
 In this article, I am providing all the configuration of AutoCAD as suggested by our professors.
+
+<!-- more -->
 
 ## Units and Limits
 

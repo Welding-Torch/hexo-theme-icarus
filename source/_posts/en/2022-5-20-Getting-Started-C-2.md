@@ -1,13 +1,14 @@
 ---
 layout: post
-title: Getting Started with C Programming: Part 2
+title: Getting Started with C Programming - Part 2
+date: 2022-5-20
 ---
 
 _Covers Setup, Basic Structure of Program, Hello World, Explanation of Terms_
 
+<!-- more -->
+
 + Hey everyone, in this article I am going to continue the C Programming series in Turbo C. This is the second article in the series. If you haven't read the first one, you can click the link here : ____.
-
-
 
 # Setup
 + Go to <https://www.onlinegdb.com/>

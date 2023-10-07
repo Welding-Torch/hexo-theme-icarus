@@ -16,48 +16,48 @@ widgets:
     -
         # Where should the widget be placed, left sidebar or right sidebar
         position: left
-        type: profile
-        # Author name
-        author: Geekspace
-        # Author title
-        author_title: Community
-        # Author's current location
-        location: Mumbai
-        # URL or path to the avatar image
-        avatar: /gallery/logo.png
-        # Whether show the rounded avatar image
-        avatar_rounded: false
-        # Email address for the Gravatar
-        gravatar: 
-        # URL or path for the follow button
-        follow_link: 'https://chat.whatsapp.com/K3NrW5tPwrsHhfbdYstjLle'
-        # Links to be shown on the bottom of the profile widget
-        social_links:
-            Whatsapp:
-                icon: fab fa-whatsapp
-                url: 'https://chat.whatsapp.com/K3NrW5tPwrsHhfbdYstjLl'
-            # Github:
-            #     icon: fab fa-github
-            #     url: 'https://github.com/ppoffice'
-            # Facebook:
-            #     icon: fab fa-facebook
-            #     url: 'https://facebook.com'
-            # Twitter:
-            #     icon: fab fa-twitter
-            #     url: 'https://twitter.com'
-            # Dribbble:
-            #     icon: fab fa-dribbble
-            #     url: 'https://dribbble.com'
-            # RSS:
-            #     icon: fas fa-rss
-            #     url: /
-    # Table of contents widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
         type: toc
         # Whether to show the index of each heading
         index: true
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: left
+    #     type: profile
+    #     # Author name
+    #     author: Geekspace
+    #     # Author title
+    #     author_title: Community
+    #     # Author's current location
+    #     location: Mumbai
+    #     # URL or path to the avatar image
+    #     avatar: /gallery/logo.png
+    #     # Whether show the rounded avatar image
+    #     avatar_rounded: false
+    #     # Email address for the Gravatar
+    #     gravatar: 
+    #     # URL or path for the follow button
+    #     follow_link: 'https://chat.whatsapp.com/K3NrW5tPwrsHhfbdYstjLle'
+    #     # Links to be shown on the bottom of the profile widget
+    #     social_links:
+    #         Whatsapp:
+    #             icon: fab fa-whatsapp
+    #             url: 'https://chat.whatsapp.com/K3NrW5tPwrsHhfbdYstjLl'
+    #         # Github:
+    #         #     icon: fab fa-github
+    #         #     url: 'https://github.com/ppoffice'
+    #         # Facebook:
+    #         #     icon: fab fa-facebook
+    #         #     url: 'https://facebook.com'
+    #         # Twitter:
+    #         #     icon: fab fa-twitter
+    #         #     url: 'https://twitter.com'
+    #         # Dribbble:
+    #         #     icon: fab fa-dribbble
+    #         #     url: 'https://dribbble.com'
+    #         # RSS:
+    #         #     icon: fas fa-rss
+    #         #     url: /
+    
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar

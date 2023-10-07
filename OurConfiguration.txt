@@ -17,7 +17,7 @@ Donate Button
 
 Search
 
-Algolia · ❌Baidu · ❌Google CSE · ✔️Insight
+❌ Algolia · ❌Baidu · ❌Google CSE · ✔️Insight
 
 Share
 

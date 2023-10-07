@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Dive Into Competitive Programming
+date: 2022-8-28
+toc: true
 ---
 
 
@@ -9,12 +11,14 @@ _Key Takeaways from TSEC CodeCell's Dive Into Code_
 - Seminar by [Saket Thota](https://codeforces.com/profile/palindroam) & [Tushar Nankani](https://codeforces.com/profile/tusharnankani)  
 - Note: [*Last Year's Virtual Seminar By CodeCell*](https://www.youtube.com/watch?v=IHPjbt2BMW8)
 
-**Author's note**: Please read the entire post and visit the approprate links. A great care has been taken into writing this and formulating the resources. If you come across some new term, please do not assume and learn it's meaning. 
-
 ### What is CP?
 
 Competitive Programming. It's more of a mind sport than a coding challenge.
 CP is about focusin on time, efficiency and accuracy.
+
+<!-- more -->
+
+**Author's note**: Please read the entire post and visit the approprate links. A great care has been taken into writing this and formulating the resources. If you come across some new term, please do not assume and learn it's meaning. 
 
 ### Why do CP?
 

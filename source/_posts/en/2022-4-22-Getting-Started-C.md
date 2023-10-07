@@ -1,11 +1,14 @@
 ---
 layout: post
 title: Getting Started with C Programming
+date: 2022-4-22
 ---
 
 _Covers Setup, Basic Structure of Program, Hello World, Explanation of Terms_
 
 In this article, I am going to show you how to get started with C Programming in TurboC.
+
+<!-- more -->
 
 # Setup
 Here's how to Setup Turbo C without installing anything on your PC.

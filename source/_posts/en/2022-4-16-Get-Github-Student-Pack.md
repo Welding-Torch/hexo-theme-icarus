@@ -1,11 +1,14 @@
 ---
 layout: post
 title: How to get GitHub Student Pack
+date: 2022-4-16
 ---
 
 _Availing GitHub Student Developer Pack, using your university email address instantly!_
 
 GitHub Student Developer Pack is a bundle full of tools and services provided by various tech companies.
+
+<!-- more -->
 
 #### Prerequisites
 
@@ -38,19 +41,19 @@ _This domain may vary based on your university/college and/or education suite pr
 
 Enter the email address with the changed domain and request verification.
 
-![Github Add Email]({{ site.baseurl }}/images/github1.png "Github Add Email")
+![Github Add Email](./gallery/github1.png "Github Add Email")
 
 You will recieve the verification email on your account.
 
 If you don't have any email client, you can use Outlook for [Android](https://play.google.com/store/apps/details?id=com.microsoft.office.outlook) and [iOS](https://apps.apple.com/us/app/microsoft-outlook/id951937596) for easier login. Web users may go to <http://outlook.com/> and use the same password to login.
 
-![Github Email Verificaton]({{ site.baseurl }}/images/github6.png "Github Verification")
+![Github Email Verificaton](./gallery/github6.png "Github Verification")
 
 Click the link and **verify the account.**
 
 Next you'll have to head over to - [Github Student Developer Pack Landing Page](https://education.github.com/discount_requests/student_application).
 
-![Github Email Verificaton]({{ site.baseurl }}/images/github2.png "Github Verification")
+![Github Email Verificaton](./gallery/github2.png "Github Verification")
 
 **Choose the college/university provided email ID**
 
@@ -65,7 +68,7 @@ Click **Continue**
 
 Now it is the time to upload your proof of academic status.
 
-![proof of academic status.]({{ site.baseurl }}/images/github3.png "proof of academic status.")
+![proof of academic status.](./gallery/github3.png "proof of academic status.")
 
 **Upload the document** and proceed further, 
 
@@ -73,7 +76,7 @@ You might be prompted with addional steps to continue, so proceed with the same.
 
 Wait for sometime, _it took me two tries and 5 minutes waiting time._ 
 
-![proof of academic status.]({{ site.baseurl }}/images/github4.png "proof of academic status.")
+![proof of academic status.](./gallery/github4.png "proof of academic status.")
 
 After sucessful submittion, all you have to do is wait for it get approved.
 
@@ -83,7 +86,7 @@ You will also **get Github Pro Badge** on your profile.
 
 <https://education.github.com/globalcampus/student> Checkout this link to verify your status.
 
-![Success]({{ site.baseurl }}/images/github5.png "Success.")
+![Success](./gallery/github5.png "Success.")
 
 ## GitHub Copilot is FREE for students
 

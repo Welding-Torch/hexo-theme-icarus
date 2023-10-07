@@ -143,7 +143,7 @@ article:
 search:
     type: insight
     # Whether to include pages in the search results
-    index_pages: true
+    include_pages: true
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:

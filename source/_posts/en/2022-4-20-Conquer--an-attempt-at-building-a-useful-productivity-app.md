@@ -32,27 +32,27 @@ I participated in a hackathon around the same time and I realised how cool it wo
 
 Conquer allows users to divide their tasks and goals into five segments: daily, weekly, monthly, yearly and long term. Create and prioritse tasks in all these sections.
 
-![Daily Todos Page](./gallery/conquer-images/daily-todos-page.png "Daily Todos Page")
+![Daily Todos Page](/gallery/conquer-images/daily-todos-page.png "Daily Todos Page")
 
-![Weekly Todos Page](./gallery/conquer-images/weekly-todos-page.png "Weekly Todos Page")
+![Weekly Todos Page](/gallery/conquer-images/weekly-todos-page.png "Weekly Todos Page")
 
-![Monthly Todos Page](./gallery/conquer-images/monthly-todos-page.png "Monthly Todos Page")
+![Monthly Todos Page](/gallery/conquer-images/monthly-todos-page.png "Monthly Todos Page")
 
-![Yearly Todos Page](./gallery/conquer-images/yearly-todos-page.png "Yearly Todos Page")
+![Yearly Todos Page](/gallery/conquer-images/yearly-todos-page.png "Yearly Todos Page")
 
-![Long Term Todos Page](./gallery/conquer-images/long-term-todos-page.png "Long Term Todos Page")
+![Long Term Todos Page](/gallery/conquer-images/long-term-todos-page.png "Long Term Todos Page")
 
-![Creating a task](./gallery/conquer-images/creating-a-task.jpg "Creating a task")
+![Creating a task](/gallery/conquer-images/creating-a-task.jpg "Creating a task")
 
 Had planned to get done with something this week but couldn’t? Conquer lets you postpone tasks in all sections and lets you know how many times you have postponed something. Wanna get a group project done and make sure your teammates are updated with unfinished tasks? With Conquer you can add friends and share tasks with them. This is where the similarities of web and android app end.
 
-![Sharing Tasks](./gallery/conquer-images/interface-for-sharing-tasks.png "Sharing tasks")
+![Sharing Tasks](/gallery/conquer-images/interface-for-sharing-tasks.png "Sharing tasks")
 
 Nudger is the feature which lets you blacklist apps and websites and notifies you about unfinished tasks, nudges you in Ashneer Grover’s iconic dialog “Bhai kya kar raha hay tu mazak hay kya” and navigates back to your home screen.
 
-![Nudger](./gallery/conquer-images/nudger.jpg "Nudger")
+![Nudger](/gallery/conquer-images/nudger.jpg "Nudger")
 
-![Nudger Alerts](./gallery/conquer-images/nudger-alerts.jpg "Nudger Alerts")
+![Nudger Alerts](/gallery/conquer-images/nudger-alerts.jpg "Nudger Alerts")
 
 ## Technical details
 

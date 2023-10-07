@@ -12,8 +12,8 @@ timezone: Asia/Kolkata
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://geekspaceclub.github.io
-root: /GeekSpace-Website/
+url: https://geekspaceclub.github.io/
+root: /
 permalink: :category/:post_title/
 permalink_defaults:
 

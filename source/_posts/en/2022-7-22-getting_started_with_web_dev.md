@@ -20,7 +20,7 @@ _Project recommendation: a well formatted website listing all suits of Tony Star
 
 ## Lets start coding now
 
-![html is a programming language](./gallery/web-dev-images/html_programming_language.jpg "Yeah, html is a programming language")
+![html is a programming language](/gallery/web-dev-images/html_programming_language.jpg "Yeah, html is a programming language")
 
 Javascript (yeah its a real programming language) should be your next step. Javascript decides how your website will behave, what happens on clicking buttons, what data gets sent to the server etc.
 If javascript is your first programming language, it can be overwhelming.
@@ -34,7 +34,7 @@ _Project recommendation: a todo list website which utilizes local storage_
 
 You can create perfectly functional websites with just HTML, CSS and JS. But as your web app grows, writing and maintaining vanilla js code becomes really tough. This is where javascript frameworks come in, they make a developer's life easy. The thing with javascript frameworks is: there a TOO MANY OF THEM.
 
-![There are just TOO MANY of them](./gallery/web-dev-images/javascript_frameworks.png "There are just TOO MANY of them")
+![There are just TOO MANY of them](/gallery/web-dev-images/javascript_frameworks.png "There are just TOO MANY of them")
 
 So which one should you choose? Angular is slightly tough to get started with, Svelte and Vue are newer frameworks that are easier to work with and performant than Angular and React but I would say go with React( actually its a library not a framework): its powerful, easy to learn, has a very large community, lots of tutorials plus if you know React you can easily get into the world of android and ios development by learning something called React Native: a framework based on React. The performance trade-off shouldn't matter to a beginner.
 
@@ -50,7 +50,7 @@ Backend refers to the code which runs on the server. This code handles requests 
 
 Choose Django(its really powerful but the project structure is extremely intimidating) or Flask if Python is your love. Gin and Beego are go frameworks. If javascript is something you are comfortable with then go with Express. My personal opinion: go with Express. It has a large community and is a very popular option with the frontend framework I recommended, React.
 
-![This is really a genuine concern](./gallery/web-dev-images/sql-or-nosql-thats-the-query.jpg "There are just TOO MANY of them")
+![This is really a genuine concern](/gallery/web-dev-images/sql-or-nosql-thats-the-query.jpg "There are just TOO MANY of them")
 
 Databases are primarily of two types: [SQL and NO-SQL](https://www.programiz.com/sql/database-introduction). For a start going with MongoDB is not a bad idea, its a popular NoSQL choice.
 

@@ -3,7 +3,7 @@ version: 5.1.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: /gallery/logo.png
+logo: /gallery/navbarlogo.png
 # Page metadata configurations
 head:
     # URL or path to the website's icon
@@ -17,7 +17,7 @@ head:
         # when there is not enough space to display full name
         short_name: GeekSpace
         # The start URL of the web application
-        start_url: https://geekspaceclub.github.io/GeekSpace-Website/
+        start_url: https://geekspaceclub.github.io/
         # The default theme color for the application
         theme_color: "#f7f7f7"
         # A placeholder background color for the application page to display
@@ -38,16 +38,16 @@ head:
         type: blog
         # Page URL (og:url) (optional)
         # You should leave this blank for most of the time
-        url: 
+        url: https://geekspaceclub.github.io/
         # Page cover (og:image) (optional)
         # You should leave this blank for most of the time
-        image: 
+        image: https://i.ibb.co/gPF0GcL/Group-1.png
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
         site_name: 
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: 
+        author: GeekSpace Team
         # Page description (og:description) (optional)
         # You should leave this blank for most of the time
         description: 
@@ -205,7 +205,7 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: GeekSpace
+        # author: GeekSpace
         # Author title
         author_title: Community
         # Author's current location
@@ -232,13 +232,13 @@ widgets:
         # Whether to show the index of each heading
         index: true
     # Recommendation links widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: links
-        # Names and URLs of the sites
-        links:
-            Hexo: 'https://hexo.io'
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: left
+    #     type: links
+    #     # Names and URLs of the sites
+    #     links:
+    #         Hexo: 'https://hexo.io'
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar

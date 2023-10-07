@@ -3,6 +3,7 @@ layout: post
 title: How to get GitHub Student Pack
 date: 2022-4-16
 toc: true
+author: Anas Khan
 ---
 
 _Availing GitHub Student Developer Pack, using your university email address instantly!_

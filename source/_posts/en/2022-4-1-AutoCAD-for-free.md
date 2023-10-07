@@ -3,6 +3,7 @@ layout: post
 title: Get your free copy of AutoCAD.
 date: 2022-4-1
 toc: true
+author: Anas Khan
 ---
 
 _Guide to get AutoCAD on your system at no costs using Student Verification._

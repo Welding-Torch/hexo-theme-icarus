@@ -3,6 +3,7 @@ layout: post
 title: Configure your AutoCAD with these settings.
 date: 2022-4-6
 toc: true
+author: Ninad Naik
 ---
 
 _AutoCAD configurations to get started._

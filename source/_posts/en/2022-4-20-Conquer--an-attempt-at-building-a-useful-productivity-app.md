@@ -3,6 +3,7 @@ layout: post
 title: Conquer - an attempt at building a useful productivity app
 date: 2022-4-20
 toc: true
+author: Pranil
 ---
 
 _This blog is going to be about a productivity app - its journey, obstacles, technical and product details._

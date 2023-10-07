@@ -2,6 +2,7 @@
 layout: post
 title: Downloadables C Basic Programs.
 date: 2022-5-19
+author: Anas Khan & Ninad Naik
 ---
 
 _Downloadables for 19th May C Crash Course Session for UT-1 CP SEM 2. (I DIV)_

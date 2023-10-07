@@ -3,6 +3,7 @@ layout: post
 title: Getting Started with C Programming - Part 2
 date: 2022-5-20
 toc: true
+author: Siddharth Bhatia
 ---
 
 _Covers Setup, Basic Structure of Program, Hello World, Explanation of Terms_

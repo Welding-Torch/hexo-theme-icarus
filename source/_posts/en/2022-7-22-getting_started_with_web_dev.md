@@ -3,6 +3,7 @@ layout: post
 title: Getting started with web development
 date: 2022-7-22
 toc: true
+author: Pranil
 ---
 
 _A comprehensive roadmap of getting started with web development._

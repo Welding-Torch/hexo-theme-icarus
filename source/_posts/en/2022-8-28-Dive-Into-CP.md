@@ -3,6 +3,7 @@ layout: post
 title: Dive Into Competitive Programming
 date: 2022-8-28
 toc: true
+author: Sarah Khan & Anas Khan
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Best Deals - BBD, Prime Day 2023
-date: 2023-8-10
+date: 2023-10-8
 toc: true
 author: Chaitanya Deshpande
 ---

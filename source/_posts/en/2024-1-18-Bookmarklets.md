@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bookmarklets
-date: 2024-10-5
+date: 2024-1-18
 toc: false
 author: Siddharth Bhatia
 ---

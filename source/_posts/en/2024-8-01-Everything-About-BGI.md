@@ -71,7 +71,7 @@ Q: What is CSCI 1300?
 A: CSCI 1300, sometimes known as CS1300, is the university of Colorado Boulder's _Introduction to Computing Course_.  
 WinBGIm was included in the Software Package for CS1300. It seems to have been used in the Labs sessions there. There's even a Lab exercise for it: https://home.cs.colorado.edu/~main/bgi/cs1300/lab/cs1300-3.html  
 
-Q: What is the history of BGI
+Q: What is the history of BGI  
 A: It's a beautiful story about open source software, and how it can be picked up and worked on by anyone in the world. Konstantin Khiznik created a way to run Borland Graphics programs on Windows. Michael Main quickly forked the work and made WinBGIm which he worked on for several years, with collaborators at University of Colorado Boulder. Most recently, Sakhil Ahmed at Shahjalal University of Science and Technology in 
 
 Q: How long was Michael Main working on WinBGIm?  

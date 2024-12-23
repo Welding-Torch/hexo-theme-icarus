@@ -1,7 +1,5 @@
 name: Deploy Hexo Site to GitHub Pages
-
 on: push
-
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -11,10 +9,9 @@ jobs:
         with:
           node-version: '14'
       - run: npm install
-      # - run: npx hexo algolia
-        # env:
-        #   HEXO_ALGOLIA_INDEXING_KEY: ${{ secrets.HEXO_ALGOLIA_INDEXING_KEY }}
       - run: NODE_ENV=production npx hexo g
+      - name: Create CNAME file
+        run: echo "geekspaceclub.xyz" > public/CNAME
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

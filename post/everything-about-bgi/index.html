@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><title>Everything About BGI - GeekSpace</title><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#f7f7f7"><meta name="application-name" content="GeekSpace"><meta name="msapplication-TileImage" content="/gallery/favicon.ico"><meta name="msapplication-TileColor" content="#f7f7f7"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="GeekSpace"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="This is a short history of BGI (Borland Graphics Interface) which was once an extremely popular and easy way to implement presentation graphics in C programs. It is still used today to teach Computer"><meta property="og:type" content="blog"><meta property="og:title" content="GeekSpace"><meta property="og:url" content="https://geekspaceclub.xyz/"><meta property="og:site_name" content="GeekSpace"><meta property="og:description" content="This is a short history of BGI (Borland Graphics Interface) which was once an extremely popular and easy way to implement presentation graphics in C programs. It is still used today to teach Computer"><meta property="og:locale" content="en_US"><meta property="og:image" content="https://i.ibb.co/xhz4cgL/Rectangle-14-6.png"><meta property="article:published_time" content="2024-07-31T18:30:00.000Z"><meta property="article:author" content="GeekSpace Team"><meta property="twitter:card" content="summary_large_image"><meta property="twitter:image:src" content="https://i.ibb.co/xhz4cgL/Rectangle-14-6.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://geekspaceclub.xyz/post/everything-about-bgi/"},"headline":"Everything About BGI","image":["https://geekspaceclub.xyz/img/og_image.png"],"datePublished":"2024-07-31T18:30:00.000Z","author":{"@type":"Person","name":"Siddharth Bhatia"},"publisher":{"@type":"Organization","name":"GeekSpace","logo":{"@type":"ImageObject","url":"https://geekspaceclub.xyz/gallery/navbarlogo.png"}},"description":"This is a short history of BGI (Borland Graphics Interface) which was once an extremely popular and easy way to implement presentation graphics in C programs. It is still used today to teach Computer"}</script><link rel="canonical" href="https://geekspaceclub.xyz/post/everything-about-bgi/"><link rel="icon" href="/gallery/favicon.ico"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"><script src="https://www.googletagmanager.com/gtag/js?id=G-DH59QBGKQK" async></script><script>window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+    
+        gtag('config', 'G-DH59QBGKQK');</script><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/outdatedbrowser@1.1.5/outdatedbrowser/outdatedbrowser.min.css"><style>.pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.pace-inactive{display:none}.pace .pace-progress{background:#3273dc;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}</style><script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js"></script><!--!--><!--!--><!-- hexo injector head_end start --><script>
+  (function () {
+      function switchTab() {
+          if (!location.hash) {
+            return;
+          }
+
+          const id = '#' + CSS.escape(location.hash.substring(1));
+          const $tabMenu = document.querySelector(`.tabs a[href="${id}"]`);
+          if (!$tabMenu) {
+            return;
+          }
+
+          const $tabMenuContainer = $tabMenu.parentElement.parentElement;
+          Array.from($tabMenuContainer.children).forEach($menu => $menu.classList.remove('is-active'));
+          Array.from($tabMenuContainer.querySelectorAll('a'))
+              .map($menu => document.getElementById($menu.getAttribute("href").substring(1)))
+              .forEach($content => $content.classList.add('is-hidden'));
+
+          if ($tabMenu) {
+              $tabMenu.parentElement.classList.add('is-active');
+          }
+          const $activeTab = document.querySelector(id);
+          if ($activeTab) {
+              $activeTab.classList.remove('is-hidden');
+          }
+      }
+      switchTab();
+      window.addEventListener('hashchange', switchTab, false);
+  })();
+  </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0">
+<style>.not-gallery-item { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .not-gallery-item > span { position: relative; z-index: 10; }  .not-gallery-item img, .not-gallery-item .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .not-gallery-item img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .not-gallery-item-fallback { color: inherit; } .not-gallery-item-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="GeekSpace" type="application/atom+xml">
+</head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/gallery/navbarlogo.png" alt="GeekSpace" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Posts</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Discuss" href="https://chat.whatsapp.com/K3NrW5tPwrsHhfbdYstjLl"><i class="fas fa-comments"></i></a><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/geekspaceclub/GeekSpace-Website/tree/site"><i class="fab fa-github"></i></a><a class="navbar-item is-hidden-tablet catalogue" title="Catalogue" href="javascript:;"><i class="fas fa-list-ul"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2024-07-31T18:30:00.000Z" title="7/31/2024, 6:30:00 PM">2024-08-01</time></span><span class="level-item"> Siddharth Bhatia </span><span class="level-item">9 minutes read (About 1413 words)</span></div></div><h1 class="title is-3 is-size-4-mobile">Everything About BGI</h1><div class="content"><p>This is a short history of BGI (Borland Graphics Interface) which was once an extremely popular and easy way to implement presentation graphics in C programs. It is still used today to teach Computer Graphics at universities in India.  </p>
+<p><code>#include &lt;graphics.h</code>  </p>
+<p>This living document is still being worked on.  </p>
+<h2 id="Quick-Explanation"><a href="#Quick-Explanation" class="headerlink" title="Quick Explanation"></a>Quick Explanation</h2><p>BGI: Borland Graphics Interface<br>WinBGI: Borland Graphics Interface <strong>for Windows</strong><br>WinBGIm: Borland Graphics Interface for Windows <strong>with mouse</strong><br>WinBGIm-64: Borland Graphics Interface for Windows with mouse <strong>supporting 64-bit computers</strong></p>
+<span id="more"></span>
+
+<h2 id="History"><a href="#History" class="headerlink" title="History"></a>History</h2><p>1987 - 1993 : Borland invents BGI<br>1995 (probably because he made this on Windows 95) : Konstantin Knizhnik creates WinBGI<br>1998 (or earlier) - 2016 : Michael Main creates WinBGIm<br>2021 - Jan 2022 : Shakil Ahmed (Bangladesh) creates WinBGIm-64</p>
+<!-- 
+## 1) BGI
+http://www.thealmightyguru.com/Wiki/index.php?title=Borland_Graphics_Interface
+
+## 2) WinBGI
+WinBGI was developed by Konstantin Knizhnik.  
+WinBGI README.txt: http://www.garret.ru/readme.txt
+Konstantin Knizhnik's website: http://www.garret.ru/
+His resume: http://www.garret.ru/resume.html
+
+Allows you to run your old Turbo-C DOS applications in 32-bit mode
+   in normal windows. So you can easily overcome all 64Kb limitations
+   and getting 32-bit application by simple recompilation !
+
+2) Graphics is much faster with WinBGI (because native Win32 API
+   is used with minimal emulation overhead) in comparison with
+   original application running in DOS session under Windows 
+   (especially at my PPro-200 with NT). 
+   Also it seems to me that some things (like switching of graphical 
+   pages) are not working properly in DOS mode under Windows-NT.
+
+
+## 3) WinBGIm
+It's difficult to tell who worked on what parts of it, but I know that Michael Main started this thing as early as 1998 and then
+It was also worked on by:
+Grant Macklem (Grant.Macklem@colorado.edu)
+Gregory Schmelter (Gregory.Schmelter@colorado.edu)
+Alan Schmidt (Alan.Schmidt@colorado.edu)
+Ivan Stashak (Ivan.Stashak@colorado.edu)
+
+## 4) WinBGIm-64
+
+## SDLBGI
+WinBGI is developed by Guido Gonzato.  
+In a "we've come full circle" turn of events, Konstantin has [referenced](http://www.garret.ru/lang.html#:~:text=Windows%20improved%20by-,Guido%20Gonzato,-)%3A%20xbgi%2D364) Guido Gonzato's work of "Xbgi" which became "[libXbgi](https://libxbgi.sourceforge.net/)" which became the SDL_bgi library, which is probably the best way to run `graphics.h` programs on modern computers.
+
+a normal html comment -->
+
+<h2 id="Q-and-A"><a href="#Q-and-A" class="headerlink" title="Q and A"></a>Q and A</h2><p>Q: Why did the CS department at the University of Colorado create WinBGIm?<br>A: As far as I can tell, they did it because the computers around them had switched to Windows and they still wanted students to be able to learn and practice computer graphics programs written for BGI. So Michael Main and others worked on WinBGIm.  </p>
+<p>Q: What is CSCI 1300?<br>A: CSCI 1300, sometimes known as CS1300, is the university of Colorado Boulder’s <em>Introduction to Computing Course</em>.<br>WinBGIm was included in the Software Package for CS1300. It seems to have been used in the Labs sessions there. There’s even a Lab exercise for it: <a target="_blank" rel="noopener" href="https://home.cs.colorado.edu/~main/bgi/cs1300/lab/cs1300-3.html">https://home.cs.colorado.edu/~main/bgi/cs1300/lab/cs1300-3.html</a>  </p>
+<p>Q: What is the history of BGI<br>A: It’s a beautiful story about open source software, and how it can be picked up and worked on by anyone in the world. Konstantin Khiznik created a way to run Borland Graphics programs on Windows. Michael Main quickly forked the work and made WinBGIm which he worked on for several years, with collaborators at University of Colorado Boulder. Most recently, Sakhil Ahmed at Shahjalal University of Science and Technology in </p>
+<p>Q: How long was Michael Main working on WinBGIm?<br>A: Michael Main was working on WinBGIm from <a target="_blank" rel="noopener" href="http://www.k3pgp.org/Notebook/Winbgi/winbgi.htm">October 17, 1998</a> (WinBGIm version 2.2) to November, 2005 (WinBGIm version 6.0). But there are updates to the source code as recently as December 2016.  </p>
+<p>Q: Where is the source code for WinBGIm?<br>A: Source Code: <a target="_blank" rel="noopener" href="https://home.cs.colorado.edu/~main/cs1300/bgi">https://home.cs.colorado.edu/~main/cs1300/bgi</a>  </p>
+<p>Q: What’s my souce?<br>A: See <a target="_blank" rel="noopener" href="https://home.cs.colorado.edu/~main/cs1300/doc/bgi/bgi.html#:~:text=h%20header%20file.-,The%20source%20code.,-Sample%20programs%3A">this</a>.  </p>
+<p><strong>Note</strong><br>Don’t get confused between there two:  </p>
+<ol>
+<li><p>The true source code of WinBGIm (updated 2016)<br><a target="_blank" rel="noopener" href="https://home.cs.colorado.edu/~main/bgi/source/">https://home.cs.colorado.edu/~main/bgi/source/</a>  </p>
+</li>
+<li><p>The mirrored source code in CS1300 (updated 2014)<br><a target="_blank" rel="noopener" href="https://home.cs.colorado.edu/~main/cs1300/bgi/">https://home.cs.colorado.edu/~main/cs1300/bgi/</a>  </p>
+</li>
+</ol>
+<h2 id="People-Involved"><a href="#People-Involved" class="headerlink" title="People Involved"></a>People Involved</h2><ul>
+<li>  Konstantin Knizhnik (The original developer of WinBGI)</li>
+<li>  Michael Main (AFAIK the primary developer of WinBGIm)</li>
+<li>  Sakhil Ahmed (The developer of WinBGIm-64)</li>
+</ul>
+<h2 id="Versions"><a href="#Versions" class="headerlink" title="Versions"></a>Versions</h2><ul>
+<li>  WinBGI shareware developed by Konstantin Knizhnik at ISPRAS(Institute of System Programming Russian Academy of Sciences). README is here: <a target="_blank" rel="noopener" href="https://home.cs.colorado.edu/~main/bgi/doc/knizhnik.txt">https://home.cs.colorado.edu/~main/bgi/doc/knizhnik.txt</a></li>
+<li>  WinBGIm (Windows BGI - with mouse) version 6.0 was maintained and distributed by Michael Main at the University of Colorado <a target="_blank" rel="noopener" href="http://www.cs.colorado.edu/~main/cs1300/doc/bgi/bgi.html">http://www.cs.colorado.edu/~main/cs1300/doc/bgi/bgi.html</a></li>
+<li>  WinBGIm for MinGW a.k.a for the GCC Compiler by Al Stevens made some extremely trivial changes to WinBGIm. Created: November 2005. Last Modified: July 2006.</li>
+</ul>
+<h2 id="Documentation-for-WinBGIm"><a href="#Documentation-for-WinBGIm" class="headerlink" title="Documentation for WinBGIm"></a>Documentation for WinBGIm</h2><p>is hosted here: <a target="_blank" rel="noopener" href="https://home.cs.colorado.edu/~main/bgi/doc/">https://home.cs.colorado.edu/~main/bgi/doc/</a><br>Functions without the ‘Win’ tag are originally from BGI. Functions with the ‘Win’ tag are unique to WinBGIm.</p>
+<h2 id="Konstantin"><a href="#Konstantin" class="headerlink" title="Konstantin"></a>Konstantin</h2><p><a target="_blank" rel="noopener" href="http://www.garret.ru/lang.html">http://www.garret.ru/lang.html</a> (scroll down to ‘BGI for Windows’)<br>My e-mail address:<br><a href="mailto:knizhnik@cecmow.enet.dec.com">knizhnik@cecmow.enet.dec.com</a></p>
+<p>“<br>BGI emulation<br>PtoC now provides emulation libraries of Borland Graphics Interface (BGI) for X-Windows and Windows-95/NT are included in this distribution (BGI emulators can be also used without converter for C programs using BGI). I found source code of BGI emulator for X-Windows in Internet, so I only have to do some changes and fix few bugs. Unfortunately this emulation library is not fully completed and tested, also not all BGI functionality is supported. And BGI emulator for MS-Windows I created myself (in Internet I found only commercial products). I called this library WinBGI.<br>WinBGI strictly emulates most of BGI functions (except using of non-standard drivers). Also may be mapping of fonts is not correct. But as far as sources are also available, you can easily customize them for your application. Unfortunately direct work with palette colors (setpalette, setbkcolor, write and putimage modes other than COPYPUT) is supported only for 256-colors Windows mode. Also I have used this library for only few programs (bgidemo is certainly the most complex one) so I can’t guaranty that all functions always work properly. I am also sorry for the lack of parameter checking in WinBGI functions.<br>“  </p>
+<ul>
+<li>from <a target="_blank" rel="noopener" href="http://www.garret.ru/ptoc/Readme.htm#winbgi">http://www.garret.ru/ptoc/Readme.htm#winbgi</a></li>
+</ul>
+<p>GitHub for original WinBGI: <a target="_blank" rel="noopener" href="https://github.com/knizhnik/ptoc/tree/master/WinBGI">https://github.com/knizhnik/ptoc/tree/master/WinBGI</a></p>
+<p>FUN FACT: Years later, he actually got a job at Borland Co, Moscow branch! He was employed there from 2003-2006.</p>
+<h2 id="WinBGIm-Windows-Borland-Graphics-Interface-and-Mouse-at-University-Of-Colorado-Boulder-1998-2004-2016"><a href="#WinBGIm-Windows-Borland-Graphics-Interface-and-Mouse-at-University-Of-Colorado-Boulder-1998-2004-2016" class="headerlink" title="WinBGIm (Windows Borland Graphics Interface and Mouse) at University Of Colorado Boulder(1998/2004 - 2016)"></a>WinBGIm (Windows Borland Graphics Interface and Mouse) at University Of Colorado Boulder(1998/2004 - 2016)</h2><p>Developed at the Computer Science department of the University of Colorado Boulder.  </p>
+<p>CS1300 BGI Graphics Exercises - <a target="_blank" rel="noopener" href="https://home.cs.colorado.edu/~main/bgi/cs1300/lab/cs1300-3.html">https://home.cs.colorado.edu/~main/bgi/cs1300/lab/cs1300-3.html</a><br>Note: WinBGIm contains its own versions of getch, delay, and kbhit. You do not need to include conio.h to use these functions.<br>Mouse Stuff Explanation: <a target="_blank" rel="noopener" href="https://home.cs.colorado.edu/~main/cs1300/doc/bgi/bgi.html">https://home.cs.colorado.edu/~main/cs1300/doc/bgi/bgi.html</a><br>Use with Visual Studio: <a target="_blank" rel="noopener" href="https://home.cs.colorado.edu/~main/bgi/visual/">https://home.cs.colorado.edu/~main/bgi/visual/</a></p>
+<h2 id="Codecutter-2005-2011"><a href="#Codecutter-2005-2011" class="headerlink" title="Codecutter (2005 - 2011)"></a>Codecutter (2005 - 2011)</h2><p><a target="_blank" rel="noopener" href="https://winbgim.codecutter.org/">https://winbgim.codecutter.org/</a><br><a target="_blank" rel="noopener" href="https://winbgim.codecutter.org/V6/_0/doc/initwindow.html">https://winbgim.codecutter.org/V6\_0/doc/initwindow.html</a><br>The site was last updated in 2011.<br>AFAIK, Al Stevens is the developer of all the projects at codecutter.org. This includes CodeBlocks Edu, Koolplot, Quincy C/C++ IDE, MakeGen(used to generate makefiles compatible with the free Borland C/C++ compiler),</p>
+<p>Al Steven’s Personal Website: <a target="_blank" rel="noopener" href="http://www.alstevens.com/bio.html">http://www.alstevens.com/bio.html</a></p>
+<h2 id="Actually-Modern-BGI-Projects-2023"><a href="#Actually-Modern-BGI-Projects-2023" class="headerlink" title="Actually Modern BGI Projects (2023)"></a>Actually Modern BGI Projects (2023)</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://sdl-bgi.sourceforge.io/">https://sdl-bgi.sourceforge.io/</a><br>  Description: SDL<em>bgi can be used to port old programs written for Turbo/Borland C to modern systems. And, of course, to write new graphics programs with minimal effort: BGI, once extremely popular, was probably the simplest way to implement presentation graphics in C programs. The same ease of programming can be obtained on modern systems. Programming fractals, cellular automata, geometry, physics models etc. is a breeze with SDL</em>bgi.</li>
+</ul>
+<h2 id="Alternatives-to-WinBGIm"><a href="#Alternatives-to-WinBGIm" class="headerlink" title="Alternatives to WinBGIm"></a>Alternatives to WinBGIm</h2><ul>
+<li>  <a target="_blank" rel="noopener" href="https://openbgi.sourceforge.net/">https://openbgi.sourceforge.net/</a> <a target="_blank" rel="noopener" href="https://sourceforge.net/projects/openbgi/">https://sourceforge.net/projects/openbgi/</a></li>
+<li>  <a target="_blank" rel="noopener" href="https://gomphics.sourceforge.net/">https://gomphics.sourceforge.net/</a> <a target="_blank" rel="noopener" href="https://sourceforge.net/projects/gomphics/files/">https://sourceforge.net/projects/gomphics/files/</a></li>
+<li>  <a target="_blank" rel="noopener" href="https://sourceforge.net/projects/graphicsmsvs/">https://sourceforge.net/projects/graphicsmsvs/</a></li>
+</ul>
+<h2 id="Additional-Links"><a href="#Additional-Links" class="headerlink" title="Additional Links"></a>Additional Links</h2><p>Jordan Hargrave’s SVGA BGI drivers: <a target="_blank" rel="noopener" href="https://github.com/jharg93/SvgaBGI">https://github.com/jharg93/SvgaBGI</a><br>CodeBlocks Edu Portable includes WinBGIm. Recommended only if all other methods to run BGI programs on Windows fails: <a target="_blank" rel="noopener" href="https://codeblocks.codecutter.org/">https://codeblocks.codecutter.org/</a><br>Quincy C/C++ IDE includes WinBGIm: <a target="_blank" rel="noopener" href="https://quincy.codecutter.org/">https://quincy.codecutter.org/</a></p>
+<p>More BGI libraries here: <a target="_blank" rel="noopener" href="https://home.cs.colorado.edu/~main/bgi/source/">https://home.cs.colorado.edu/~main/bgi/source/</a><br>with the most recent update as early as 2016!</p>
+<p>Sitemap of Uni Colorado Michael Main:<br><a target="_blank" rel="noopener" href="https://www.xml-sitemaps.com/details-home.cs.colorado.edu-9234475b5.html">https://www.xml-sitemaps.com/details-home.cs.colorado.edu-9234475b5.html</a></p>
+<p><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Borland*Graphics*Interface">https://en.wikipedia.org/wiki/Borland*Graphics*Interface</a></p>
+<p>Moscow State Industrial University</p>
+</div><div class="article-licensing box"><div class="licensing-title"><p>Everything About BGI</p><p><a href="https://geekspaceclub.xyz/post/everything-about-bgi/">https://geekspaceclub.xyz/post/everything-about-bgi/</a></p></div><div class="licensing-meta level is-mobile"><div class="level-left"><div class="level-item is-narrow"><div><h6>Author</h6><p>Siddharth Bhatia</p></div></div><div class="level-item is-narrow"><div><h6>Posted on</h6><p>2024-08-01</p></div></div><div class="level-item is-narrow"><div><h6>Licensed under</h6><p><a class="icons" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="icon fab fa-creative-commons"></i></a><a class="" rel="noopener" target="_blank" title="CC BY-NC-SA 4.0" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></p></div></div></div></div></div><div class="a2a_kit a2a_kit_size_32 a2a_default_style"><a class="a2a_dd" href="https://www.addtoany.com/share"></a><a class="a2a_button_facebook"></a><a class="a2a_button_twitter"></a><a class="a2a_button_telegram"></a><a class="a2a_button_whatsapp"></a><a class="a2a_button_reddit"></a></div><script src="https://static.addtoany.com/menu/page.js" defer></script></article></div><!--!--><nav class="post-navigation mt-4 level is-mobile"><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/post/bookmarklets/"><span class="level-item">Bookmarklets</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><div class="card"><div class="card-content"><h3 class="title is-5">Comments</h3><div id="disqus_thread"><noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div><script>var disqus_config = function () {
+            this.page.url = 'https://geekspaceclub.xyz/post/everything-about-bgi/';
+            this.page.identifier = 'post/everything-about-bgi/';
+        };
+        (function() {
+            var d = document, s = d.createElement('script');  
+            s.src = '//' + 'geekspace' + '.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();</script></div></div></div><div class="column column-left is-4-tablet is-4-desktop is-4-widescreen  order-1 is-sticky"><div class="card widget" id="toc" data-type="toc"><div class="card-content"><div class="menu"><h3 class="menu-label">Catalogue</h3><ul class="menu-list"><li><a class="level is-mobile" href="#Quick-Explanation"><span class="level-left"><span class="level-item">1</span><span class="level-item">Quick Explanation</span></span></a></li><li><a class="level is-mobile" href="#History"><span class="level-left"><span class="level-item">2</span><span class="level-item">History</span></span></a></li><li><a class="level is-mobile" href="#Q-and-A"><span class="level-left"><span class="level-item">3</span><span class="level-item">Q and A</span></span></a></li><li><a class="level is-mobile" href="#People-Involved"><span class="level-left"><span class="level-item">4</span><span class="level-item">People Involved</span></span></a></li><li><a class="level is-mobile" href="#Versions"><span class="level-left"><span class="level-item">5</span><span class="level-item">Versions</span></span></a></li><li><a class="level is-mobile" href="#Documentation-for-WinBGIm"><span class="level-left"><span class="level-item">6</span><span class="level-item">Documentation for WinBGIm</span></span></a></li><li><a class="level is-mobile" href="#Konstantin"><span class="level-left"><span class="level-item">7</span><span class="level-item">Konstantin</span></span></a></li><li><a class="level is-mobile" href="#WinBGIm-Windows-Borland-Graphics-Interface-and-Mouse-at-University-Of-Colorado-Boulder-1998-2004-2016"><span class="level-left"><span class="level-item">8</span><span class="level-item">WinBGIm (Windows Borland Graphics Interface and Mouse) at University Of Colorado Boulder(1998/2004 - 2016)</span></span></a></li><li><a class="level is-mobile" href="#Codecutter-2005-2011"><span class="level-left"><span class="level-item">9</span><span class="level-item">Codecutter (2005 - 2011)</span></span></a></li><li><a class="level is-mobile" href="#Actually-Modern-BGI-Projects-2023"><span class="level-left"><span class="level-item">10</span><span class="level-item">Actually Modern BGI Projects (2023)</span></span></a></li><li><a class="level is-mobile" href="#Alternatives-to-WinBGIm"><span class="level-left"><span class="level-item">11</span><span class="level-item">Alternatives to WinBGIm</span></span></a></li><li><a class="level is-mobile" href="#Additional-Links"><span class="level-left"><span class="level-item">12</span><span class="level-item">Additional Links</span></span></a></li></ul></div></div><style>#toc .menu-list > li > a.is-active + .menu-list { display: block; }#toc .menu-list > li > a + .menu-list { display: none; }</style><script src="/js/toc.js" defer></script></div><!--!--><!--!--></div><!--!--></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/gallery/navbarlogo.png" alt="GeekSpace" height="28"></a><p class="is-size-7"><span>&copy; 2024 Siddharth Bhatia</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Discuss" href="https://chat.whatsapp.com/K3NrW5tPwrsHhfbdYstjLl"><i class="fas fa-comments"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/geekspaceclub/GeekSpace-Website/tree/site"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("en");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="Back to top" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
+                $('.justified-gallery').justifiedGallery();
+            }
+        });</script><!--!--><!--!--><div id="outdated"><h6>Your browser is out-of-date!</h6><p>Update your browser to view this website correctly.&amp;npsb;<a id="btnUpdateBrowser" href="http://outdatedbrowser.com/">Update my browser now </a></p><p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">×</a></p></div><script src="https://cdn.jsdelivr.net/npm/outdatedbrowser@1.1.5/outdatedbrowser/outdatedbrowser.min.js" defer></script><script>window.addEventListener("load", function () {
+            outdatedBrowser({
+                bgColor: '#f25648',
+                color: '#ffffff',
+                lowerThan: 'object-fit' // display on IE11 or below
+            });
+        });</script><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="Type something..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"Type something...","untitled":"(Untitled)","posts":"Posts","pages":"Pages","categories":"Categories","tags":"Tags"});
+        });</script></body></html>
